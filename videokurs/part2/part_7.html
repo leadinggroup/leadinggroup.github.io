@@ -23,7 +23,7 @@
 					<div class="video content__video">
 						<div class="video__top">
 							<p class="video__type">Раздел 1. Изучение 1C</p>
-							<p class="video__name">День 1. ДОМАШНЕЕ ЗАДАНИЕ No 7</p>
+							<p class="video__name">День 7. ДОМАШНЕЕ ЗАДАНИЕ No 7</p>
 						</div>
 						<div class="video__iframe">
 							<iframe poster="/path/to/poster.jpg"
@@ -59,35 +59,6 @@
 		</footer>
 	</div>
 	<script src="../js/all.min.js"></script>
-	<script>
-		/* Get the documentElement (<html>) to display the page in fullscreen */
-		var elem = document.documentElement;
-
-		/* View in fullscreen */
-		function openFullscreen() {
-			if (elem.requestFullscreen) {
-				elem.requestFullscreen();
-			} else if (elem.webkitRequestFullscreen) { /* Safari */
-				elem.webkitRequestFullscreen();
-			} else if (elem.msRequestFullscreen) { /* IE11 */
-				elem.msRequestFullscreen();
-			}
-		}
-
-		/* Close fullscreen */
-		function closeFullscreen() {
-			if (document.exitFullscreen) {
-				document.exitFullscreen();
-			} else if (document.webkitExitFullscreen) { /* Safari */
-				document.webkitExitFullscreen();
-			} else if (document.msExitFullscreen) { /* IE11 */
-				document.msExitFullscreen();
-			}
-		}
-	</script>
-	<script>
-		const player = new Plyr('#player');
-	</script>
 </body>
 
 </html>
